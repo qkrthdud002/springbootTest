@@ -24,4 +24,5 @@ public class MemberEntity {
 
     @OneToMany(mappedBy = "memberEntity", cascade = {CascadeType.PERSIST}, orphanRemoval = true)
     private List<BoardEntity> boardEntities = new ArrayList<>();
+
 }
