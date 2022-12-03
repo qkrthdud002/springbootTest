@@ -23,5 +23,4 @@ public class BoardEntity {
     @JoinColumn(name = "memberEntity_id")
     private MemberEntity memberEntity;
 
-
 }
